@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+/**
+ * @author libing
+ *
+ */
+package com.postdemo;
+
+import org.apache.http.client.methods.HttpPost;
+
+import com.google.gson.JsonObject;
+
+public class postd{
+	
+	
+	
+	public static void main( String[] args){
+		String lofinurl="http://m.228.cn/ajax/ycLogin.json";
+		HttpPost httppost = new HttpPost(lofinurl);
+		JsonObject daye=new JsonObject();
+		
+		
+		
+		
+	}
+	
+}
